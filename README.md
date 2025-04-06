@@ -64,6 +64,38 @@ class CellPhone{
     }
     public void vib(){
         System.out.println("Vibrating...");
+
+
+        # qsn 3
+
+        class Cylinder {
+    private int height;
+    private int radius;
+
+    public int getRadius() {
+        return radius;
+    }
+
+    public void setRadius(int n) {
+        this.radius = n;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int h) {
+        this.height = h;
+    }
+}
+
+public class Oops {
+    public static void main(String[] args) {
+        Cylinder myCylinder = new Cylinder();
+        myCylinder.setHeight(44);
+        System.out.println(myCylinder.getHeight());
+    }
+}
     }
 
 }
